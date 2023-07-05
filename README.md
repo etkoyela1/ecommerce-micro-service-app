@@ -45,11 +45,11 @@ The Flask application inside the Docker container will start and listen on port 
 Now, your backend Flask application should be running at http://localhost:5000. You can send HTTP requests to this URL to interact with the application.
 
 If you deploy it in an EC2 instance, enable the security group of instance to accept taffic on port 5000 and access the
-backend app with postman on http://instance-public-ip:5000.
+backend app with Postman app on http://instance-public-ip:5000.
 
 ### Endpoints
 The following endpoints are available:
 
-GET / : Returns a welcome message.
-POST /signup : Creates a new user. Expects a JSON payload with 'username' and 'password' fields.
-POST /signin : Authenticates a user. Expects a JSON payload with 'username' and 'password' fields.
+- GET / : Returns a welcome message.
+- POST /signup : Creates a new user. Expects a JSON payload with 'username' and 'password' fields.
+- POST /signin : Authenticates a user. Expects a JSON payload with 'username' and 'password' fields.
