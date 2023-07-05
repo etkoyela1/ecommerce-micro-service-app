@@ -1,5 +1,2 @@
-# flask
-
 flask
-flask_sqlalchemy
 werkzeug
