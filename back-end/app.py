@@ -6,7 +6,7 @@ app.logger.setLevel(logging.INFO)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, Champy!'
 
 @app.route('/signup', methods=['POST'])
 def signup():
